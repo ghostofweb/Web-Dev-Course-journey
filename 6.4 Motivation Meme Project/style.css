@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+}
+.image{
+    height:350px;
+   width: 580px;
+   border:10px solid white;
+   
+  
+   
+}
+.box{
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fonts{
+    color:yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.text{
+    color:red;
+    text-align: center;
+    
+}

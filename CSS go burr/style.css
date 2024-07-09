@@ -1,0 +1,16 @@
+.text {
+    color:red;
+}
+
+#main {
+    color:aquamarine;
+}
+
+p[draggable="false"]{
+    color:red;
+}
+
+*{
+    background-color:black;
+    color:gray;
+}

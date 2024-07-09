@@ -1,0 +1,133 @@
+.container1{
+    height: 47.3rem;
+    background-image: url(./images/image1.png);
+    background-repeat:repeat-x;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.section1{
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+
+.logo{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+
+}
+
+.align-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section2 {
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.third{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.shop-now{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #ff0e73;
+    width: 200px;
+}
+.container2{
+    background-color:#010123;
+    height:49.3rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+.section-image2{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageee{
+    height: 45rem;
+}
+
+.section2-section2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 250px;
+    align-items: center;
+    color: #ff0e73;
+    font-size: 65px;
+    letter-spacing: -3px;
+}
+.lower-section{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.container3{
+    padding: 50px;
+    background-color:#010123;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
